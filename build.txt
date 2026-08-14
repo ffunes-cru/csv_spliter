@@ -1,0 +1,1 @@
+clang++ --target=x86_64-w64-mingw32 -fuse-ld=lld -std=c++17 main.cpp -o csv_spliter.exe -lole32 -luuid -lcomctl32 -lpthread -static
